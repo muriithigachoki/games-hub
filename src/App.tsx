@@ -47,7 +47,7 @@ function App() {
         <Box paddingLeft={2}>
           <GameHeading gameQuery={gameQuery} />
           <Flex paddingLeft={2} marginBottom={5}>
-            <Box marginRight="5px">
+            <Box marginRight={5}>
               <PlatformSelector
                 selectedPlatform={gameQuery.platform}
                 onSelectPlatform={(platform) =>
